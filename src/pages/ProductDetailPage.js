@@ -12,6 +12,8 @@ import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 // Material ui/lab used 
 import Rating from "@material-ui/lab/Rating";
 
+
+
 import GlobalContext from "../state/GlobalContext";
 
 const useStyles = makeStyles((theme) => ({
@@ -38,7 +40,6 @@ const ProductDetailPage = () => {
   const { slug } = useParams();
   const { products, addToCart } = useContext(GlobalContext);
   const [rating] = useState(3.5);
-
   const product = products.find((p) => p.slug === slug);
 
   if (!product) return <p>Product not found</p>;

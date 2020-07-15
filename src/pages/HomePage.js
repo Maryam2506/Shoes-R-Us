@@ -1,5 +1,5 @@
 import React from "react";
-//Material ui/core used 
+//Material ui/core used
 import { makeStyles } from "@material-ui/core/styles";
 import { Container, Typography } from "@material-ui/core";
 
@@ -53,18 +53,21 @@ const HomePage = () => {
           color="primary"
           align="center"
           className={classes.heading}
-        
         >
-          FASHION FOR EVERY YOU 
+          FASHION FOR EVERY YOU
         </Typography>
 
-        <Typography
-          variant="body1"
-          color="primary"
-          align="center"
-          className={classes.heading}
-        >
-          <span style={{ color: "rgb(8, 75, 128)", fontSize: "22px" }}>
+        <Typography variant="body1" color="primary" align="center">
+          <span
+            style={{
+              color: "rgb(8, 75, 128)",
+              fontSize: "22px",
+              background: "white",
+              padding: "5px",
+              borderRadius: "6px 1px",
+              
+            }}
+          >
             Shoes <span style={{ color: "#f4920f" }}>'R Us</span>
           </span>{" "}
           has been your companion in happiness, both big and small, for over 50

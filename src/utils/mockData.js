@@ -439,4 +439,6 @@ export const products = [
     imageURL: "https://images.vans.com/is/image/Vans/MV122M-HERO?$583x583$",
     slug: "michael-feburary-sk8-hi",
   },
+ 
+  
 ];
