@@ -44,4 +44,4 @@ jobs:
       
    # Deploy Surge  
     - name: Deploy Surge
-      run: surge ./build http://rloveshoe_us.surge.sh/ --token ${{secrets.SURGE}}
+      run: surge ./build rloveshoe_us.surge.sh --token ${{secrets.SURGE}}
